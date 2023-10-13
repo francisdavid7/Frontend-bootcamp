@@ -1,0 +1,21 @@
+body::before {
+   content: '';
+   display: block;
+   height: 60px;
+}
+
+.reviews div img {
+   width: 120px;
+   height: 120px;
+   object-fit: cover;
+}
+
+.map img {
+   width: 80%;
+}
+
+@media (min-width: 768px) {
+   .news-input {
+      width: 50%;
+   }
+}
