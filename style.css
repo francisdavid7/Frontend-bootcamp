@@ -19,3 +19,15 @@ body::before {
       width: 50%;
    }
 }
+
+@media (max-width: 767px) {
+
+   html {
+      font-size: 65.5%;
+    }
+
+   .container {
+      text-align: center;
+    }
+   
+}
